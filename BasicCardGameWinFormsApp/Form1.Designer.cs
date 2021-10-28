@@ -43,9 +43,10 @@ namespace BasicCardGameWinFormsApp
             // playGamebtn
             // 
             this.playGamebtn.Cursor = System.Windows.Forms.Cursors.Default;
-            this.playGamebtn.Location = new System.Drawing.Point(367, 317);
+            this.playGamebtn.Location = new System.Drawing.Point(419, 423);
+            this.playGamebtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.playGamebtn.Name = "playGamebtn";
-            this.playGamebtn.Size = new System.Drawing.Size(92, 43);
+            this.playGamebtn.Size = new System.Drawing.Size(105, 57);
             this.playGamebtn.TabIndex = 0;
             this.playGamebtn.Text = "Play Game";
             this.playGamebtn.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@ namespace BasicCardGameWinFormsApp
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(113, 114);
+            this.pictureBox1.Location = new System.Drawing.Point(129, 152);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(182, 264);
+            this.pictureBox1.Size = new System.Drawing.Size(208, 352);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -64,9 +66,10 @@ namespace BasicCardGameWinFormsApp
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(538, 114);
+            this.pictureBox2.Location = new System.Drawing.Point(615, 152);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(182, 264);
+            this.pictureBox2.Size = new System.Drawing.Size(208, 352);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -75,9 +78,10 @@ namespace BasicCardGameWinFormsApp
             // 
             this.exitbtn.Cursor = System.Windows.Forms.Cursors.Default;
             this.exitbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exitbtn.Location = new System.Drawing.Point(684, 394);
+            this.exitbtn.Location = new System.Drawing.Point(782, 525);
+            this.exitbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.exitbtn.Name = "exitbtn";
-            this.exitbtn.Size = new System.Drawing.Size(92, 44);
+            this.exitbtn.Size = new System.Drawing.Size(105, 59);
             this.exitbtn.TabIndex = 3;
             this.exitbtn.Text = "Exit";
             this.exitbtn.UseVisualStyleBackColor = true;
@@ -85,41 +89,38 @@ namespace BasicCardGameWinFormsApp
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(370, 197);
+            this.label3.Location = new System.Drawing.Point(419, 254);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 15);
+            this.label3.Size = new System.Drawing.Size(105, 57);
             this.label3.TabIndex = 6;
             this.label3.Text = "Result";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(162, 74);
+            this.label4.Location = new System.Drawing.Point(165, 88);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 15);
+            this.label4.Size = new System.Drawing.Size(133, 57);
             this.label4.TabIndex = 7;
             this.label4.Text = "Player 1 Name";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(593, 74);
+            this.label5.Location = new System.Drawing.Point(660, 88);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 15);
+            this.label5.Size = new System.Drawing.Size(133, 57);
             this.label5.TabIndex = 8;
             this.label5.Text = "Player 2 Name";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BasicCardGameWinFormsApp.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 600);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -127,13 +128,13 @@ namespace BasicCardGameWinFormsApp
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.playGamebtn);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Basic Card Game (Highest Card Wins)";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
