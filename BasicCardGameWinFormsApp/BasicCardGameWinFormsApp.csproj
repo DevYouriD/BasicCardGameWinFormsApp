@@ -7,6 +7,71 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net5.0-windows\BasicCardGameWinFormsApp.deps.json" />
+    <Content Include="bin\Debug\net5.0-windows\BasicCardGameWinFormsApp.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0-windows\BasicCardGameWinFormsApp.runtimeconfig.json" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\10C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\10D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\10H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\10S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\2C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\2D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\2H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\2S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\3C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\3D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\3H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\3S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\4C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\4D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\4H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\4S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\5C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\5D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\5H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\5S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\6C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\6D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\6H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\6S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\7C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\7D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\7H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\7S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\8C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\8D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\8H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\8S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\9C.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\9D.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\9H.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\9S.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\AC.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\AD.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\AH.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\AS.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\JC.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\JD.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\JH.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\JS.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\KC.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\KD.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\KH.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\KS.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\QC.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\QD.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\QH.png" />
+    <Content Include="bin\Debug\net5.0-windows\Resources\QS.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0-windows\BasicCardGameWinFormsApp.dll" />
+    <None Include="bin\Debug\net5.0-windows\BasicCardGameWinFormsApp.exe" />
+    <None Include="bin\Debug\net5.0-windows\BasicCardGameWinFormsApp.pdb" />
+    <None Include="bin\Debug\net5.0-windows\ref\BasicCardGameWinFormsApp.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

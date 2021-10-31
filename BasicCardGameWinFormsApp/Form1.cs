@@ -54,6 +54,8 @@ namespace BasicCardGameWinFormsApp
 
             pictureBox1.Image = Image.FromFile(path1);
             pictureBox2.Image = Image.FromFile(path2);
+
+
         }
 
         private void exitbtn_Click(object sender, EventArgs e)
