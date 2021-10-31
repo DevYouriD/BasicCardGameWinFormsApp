@@ -10,8 +10,6 @@ using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Collections;
-using BasicCardGameWinFormsApp.Properties;
 using System.IO;
 
 namespace BasicCardGameWinFormsApp
@@ -54,8 +52,6 @@ namespace BasicCardGameWinFormsApp
 
             pictureBox1.Image = Image.FromFile(path1);
             pictureBox2.Image = Image.FromFile(path2);
-
-
         }
 
         private void exitbtn_Click(object sender, EventArgs e)

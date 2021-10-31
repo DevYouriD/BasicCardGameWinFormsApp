@@ -44,7 +44,7 @@ namespace BasicCardGameWinFormsApp
             displayCard2 = player2choice;
         }
 
-        //GET THE PLAYER CARD TYPE TO COMPARE IT AND CHANGE THE IMAGES IN MAIN
+        //GET THE PLAYER CARD FACE AND TYPE TO COMPARE IT AND CHANGE THE IMAGES IN MAIN
         public string getPlayer1Card()
         {
             return displayCard1.Face + displayCard1.Type;
@@ -54,7 +54,7 @@ namespace BasicCardGameWinFormsApp
             return displayCard2.Face + displayCard2.Type;
         }
 
-        //GET THE PLAYER CARD TYPE AND CONVERT IT TO ITS FULL NAME TO DISPLAY IT IN MAIN
+        //GET THE PLAYER CARD FACE AND TYPE AND CONVERT IT TO ITS FULL NAME TO DISPLAY IT IN MAIN
         string p1CardType;
         string p1CardFace;
         public string getPlayer1CardName()
